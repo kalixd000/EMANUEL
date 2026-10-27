@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    overflow: auto;
+    background-color: black;
+}
+.contenedor {
+    position: relative;
+    flex-shrink: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #810c0c;
+}
+.contenedor p {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.2;
+    transform-origin: center center;
+    box-shadow: -10px 15px 100px #ff0000;
+}
+.contenedor .amor {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    font-weight: bold;
+    color: #ff0000;
+    z-index: 2;
+    box-shadow: none;
+    font-style: inherit;
+}
+.click{
+    color: aliceblue;
+    font-size: 10px;
+}
