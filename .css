@@ -42,3 +42,24 @@ body {
     color: aliceblue;
     font-size: 10px;
 }
+@keyframes latiendo {
+    0%, 100% {
+        scale: 1;
+    }
+    15% {
+        scale: 1.08;
+    }
+    30% {
+        scale: 1;
+    }
+    45% {
+        scale: 1.12;
+    }
+    60% {
+        scale: 1;
+    }
+}
+
+.contenedor {
+    animation: latiendo 3.5s infinite ease-in-out;
+}
