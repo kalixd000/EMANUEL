@@ -63,3 +63,19 @@ body {
 .contenedor {
     animation: latiendo 3.5s infinite ease-in-out;
 }
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+        justify-content: center;
+    }
+    .contenedor {
+        transform: scale(0.55);
+        transform-origin: center center;
+        flex-shrink: 0;
+    }
+    .contenedor p {
+        white-space: nowrap;
+    }
+}
